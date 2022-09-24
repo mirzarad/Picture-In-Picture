@@ -10,14 +10,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#313A6B, #9198e5);
+  background: linear-gradient(#6709ff, #0033ff);
 }
 
 .button-container {
   border: 2px solid black;
   padding: 10px;
   border-radius: 7px;
-  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.648);
 }
 
 
@@ -30,14 +30,14 @@ button {
   font-size: 25px;
   color: whitesmoke;
   text-shadow: 0 2px 5px black;
-  background: linear-gradient(to top, #696969, #575757);
+  background: linear-gradient(to top, #ec1dff, #1068ff);
   border: 2px solid black;
   border-radius: 7px;
   box-shadow: inset 0 20px 4px -19px rgba(255,255,255,0.4), 0 12px 12px 0 rgba(0,0,0,0.3);
 }
 
 button:hover {
-  background: linear-gradient(to bottom, #696969, #575757);
+  background: linear-gradient(to top,  #1068ff, #f183fb);
 }
 
 button:active {
